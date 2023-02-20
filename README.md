@@ -49,10 +49,10 @@ on "dbo.student" to view data, either refresh or close and reopen the SQL Explor
 
 **Assumptions and their corresponding vulnerability**
 - While designing the database, assumptions are:
-  - The release date of a letter can be different from the date when the data is entered. For instance, if an admission officer has reviewed the file in Februrary, there can be several reasons that could prevent them from releasing the good news to the students timely:
-    - The university could have required an earlist release date (which can be some date in April);
-    - Or if the admission officer on edge deciding if someone is qualified (waitlisted, for instance), by setting a later date, the officer allows themself the chance to give the case a second thought later.
-    - ** However, if the letters should be released a.s.a.p, to avoid redundancy, the CRUD function should be improved so that the input can be null and the release date should be the day of the data entry.
+  - The release date of a letter can be different from the date when the data is entered. Consider an admission officer who has reviewed the file in Februrary. There can be several reasons which could prevent them from releasing the good news to the students timely:
+    - The university could have required an earlist release date (it can be some date in mid April);
+    - Or if the admission officer is on the edge, trying to decide if someone is qualified (waitlisted, for instance), by setting a later date, the officer allows themself the chance to give the case a second thought later.
+    - ** However, if the letters should be released a.s.a.p, to avoid redundancy, the CRUD function should be improved so that the input can be null and the release date should be the day of the data entry automatically.
   - All prospect students -- even without admission or scholarship -- are given their 8-digit StudentId
 - While designing the console app that generates input folders and files, assumptions are:  
   - Later this code will be automatically run on all weekdays at a time before 10 a.m. This assumption can prove to be valid because: 
