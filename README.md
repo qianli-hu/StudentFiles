@@ -29,10 +29,10 @@ The purpose of this application is to simulate a local pipeline to consider how 
 **Testing**  
 There are two parts of the repository that need to be tested:  
 - The web app: 
- - Launch the StudentFiles app to examine if the database has the three records (sometimes the SQL Server Object Explorer can show empty data if right-clicking 
+  - Launch the StudentFiles app to examine if the database has the three records (sometimes the SQL Server Object Explorer can show empty data if right-clicking 
 on "dbo.student" to view data, either refresh or close and reopen the SQL Explorer to solve this issue).
- - Check the CRUD functions to see if they work.
+  - Check the CRUD functions to see if they work.
 - The console app (Since no arg input is provided, the code automatically selects the date to be "02/12/2023" (in MM/dd/yyyy format).): 
- - In the StudentFiles-master folder, check to see if, under the two subfolders, the dated folders are generated. 
- - There should be one letter in the scholarship folder and two in the admission folder.
- - Open the txt file; it should read "Congratulations on your scholarship! You should receive your (type of acceptance) letter in the mail soon." 
+  - In the StudentFiles-master folder, check to see if, under the two subfolders, the dated folders are generated. 
+  - There should be one letter in the scholarship folder and two in the admission folder.
+  - Open the txt file; it should read "Congratulations on your scholarship! You should receive your (type of acceptance) letter in the mail soon." 
