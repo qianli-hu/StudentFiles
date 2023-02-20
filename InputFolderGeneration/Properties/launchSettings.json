@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "InputFolderGeneration": {
+      "commandName": "Project",
+      "commandLineArgs": "test",
+      "workingDirectory": "C:\\Users\\qianl\\Desktop\\StudentFiles-master"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
