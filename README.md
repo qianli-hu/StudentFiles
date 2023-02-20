@@ -65,9 +65,9 @@ on "dbo.student" to view data, either refresh or close and reopen the SQL Explor
 **Planning for the project and actual time used**
 - Planning -- 1 hour planned/1 hour used
 - Set up the database and Implement the web app -- 2 hours planned/4 hours used
-  - The unexpected and somewhat disappointing amount of exceeded time arrived because in the original implementation, the CRUD functions were set up page-by-page. But after getting to the Delete function and realizing that using EF scaffolding could be much quicker (and less error-prone), the implementation has to start over.
+  - The unexpected and somewhat disappointing amount of exceeded time arrived because in the original implementation, the CRUD functions were set up page-by-page. But after getting to the Delete function and realizing that using EF scaffolding could be much quicker (and less error-prone), the implementation had to start over.
 - Implement the console app functions -- 2 hours planned/1.5 hours used
-  - The design and realization of the console app is very similar to the LetterMerge, and it does not take long.
+  - The design and realization of the console app was very similar to the LetterMerge.
 - Debugging, packaging -- 1 hour planned/~1 hours used
 - Documentation -- 2 hours planned/~2 hours used
 
