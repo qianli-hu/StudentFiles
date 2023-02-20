@@ -1,6 +1,6 @@
 # StudentFiles, A student record management system 
 **Introduction**  
-- This repositoryh is intented as a front-end design in correspondence with the LetterMerge functionality, in an effort to consider how the overall pipeline can be structured and then improved. It consists of a web application and a console application, both of which interact with a SQL Server Express LocalDB database containing student records. 
+- This repository is intented as a front-end design in correspondence with the LetterMerge functionality, in an effort to consider how the overall pipeline can be structured and then improved. It consists of a web application and a console application, both of which interact with a SQL Server Express LocalDB database containing student records. 
 The web application provides CRUD operations and a search-by-name method for the existing student data, 
 while the console application retrieves student records based on their admission status and generates dated input folders. 
 
@@ -86,5 +86,5 @@ on "dbo.student" to view data, either refresh or close and reopen the SQL Explor
   - In the current phase, the web app is very raw. If needed, further analytical tools should be added to utilize the data better.
   - In the current assembly, the two functionalites -- database design and the input generation -- are packed together. Perhaps the lettermerge repo should be incorporated into this solution to reuse some of the IletterServices methods, thus adhering to the DRY (Don't repeat yourself) principle.
 
-**Conclusion**
+**Conclusion**  
 The StudentFiles repository provides a student record management system with a web application and a console application that interact with a SQL Server Express LocalDB database containing student records. The web application provides CRUD operations and a search-by-name method for the existing student data, while the console application retrieves student records based on their admission status and generates dated input folders. 
