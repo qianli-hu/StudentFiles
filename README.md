@@ -21,19 +21,18 @@ while the console application retrieves student records based on their admission
 - In the Package Manager Console, type in the command: "Add-Migration StudentFilesInitial" (without the quotes) and press enter.
 - Then, type in the command: "Update-Database" (without the quotes) and press enter.
 - The database should now be seeded and ready to be accessed.
-- Open the SQL Server Object Explorer, check if a database with keywords "StudentFilesContext" is generated; also, run the app to see if three student records are displayed.
+- Open the SQL Server Object Explorer, check if a database with keywords "StudentFilesContext" is generated; also, run the app and direct to the 'home' page to see if three student records are displayed.
 - Next, change the toggle to "InputFolderGeneration". In the debug properties setting, change the working directory to the main master folder. It should look like: "C:\Users\<userid>\Desktop\StudentFiles-master".
 - Run the program.
 - Follow the next steps to see if the run is successful.  
 
 **Testing**  
-There are two parts of the repository that need to be tested:  
 - The web app: 
-  - Launch the StudentFiles app to examine if the database has the three records (sometimes the SQL Server Object Explorer can show empty data if right-clicking 
+  - Launch the StudentFiles app and direct to the 'home' page to examine if the database has the three records (sometimes the SQL Server Object Explorer can show empty data if right-clicking 
 on "dbo.student" to view data, either refresh or close and reopen the SQL Explorer to solve this issue).
-  - Check the CRUD functions to see if they work.
-- The console app (Since no arg input is provided, the code selects "02122023" (in MMddyyyy format) to be the name of the dated folders): 
-  - In the StudentFiles-master folder, check to see if, under the two "Admission" and "Scholarship" subfolders, the dated folders are generated. 
+  - Check the CRUD functions to see if they work as expected.
+- The console app: 
+  - In the StudentFiles-master folder, check to see if, under the two "Admission" and "Scholarship" subfolders, the dated folders are generated. Since no arg input is provided, the code selects "02122023" (in MMddyyyy format) to be the name of the dated folders.
   - There should be one letter in the scholarship folder (Scholarship-01230123.txt) and two in the admission folder (Admission-00000123.txt, Admission-01230123.txt).
   - Within the txt files; it should include the studentid, date of release, and a message which reads "Congratulations on your {type}! You should receive your (type) letter in the mail soon." 
 
